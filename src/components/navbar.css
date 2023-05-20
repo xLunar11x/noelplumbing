@@ -1,0 +1,64 @@
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 0em;
+    background-image: linear-gradient(to left, #607395, #155e9d);
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+#links {
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+}
+
+#home {
+    margin: 5px;
+    font-size: 20px;
+}
+
+#services {
+    margin: 5px;
+    font-size: 20px;
+}
+
+#contact {
+    margin: 5px;
+    font-size: 20px;
+    
+}
+
+.link {
+    color: black;
+    font-size: 25px;
+}
+
+.link:hover {
+    color: white;
+}
+
+@media all and (max-width: 540px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .link {
+        font-size: 20px;
+    }
+}

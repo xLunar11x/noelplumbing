@@ -1,0 +1,71 @@
+#home-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    background-image: url("../assets/plumbingpic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #155e9d;
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+#service-areas {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#areas li {
+    font-size: 30px;
+}
+
+#home-page-description {
+    font-size: 25px;
+    margin: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#service-areas-content {
+    margin: 40px;
+}
+
+@media all and (max-width: 500px) {
+    #service-areas-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #service-areas {
+        text-align: center;
+    }
+    
+    #areas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
