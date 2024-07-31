@@ -14,7 +14,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="content">
-                    <h3>Estimates Hours</h3>
+                    <h3>Estimate Hours</h3>
                     <ul id="hours">
                         <li>Monday - Friday</li>
                         <li>8:00 am to 4:00 pm</li>
@@ -27,8 +27,16 @@ const Footer = () => {
                         <li><p>Phone Number:</p><a href='tel:2243967000'>(224) 369-7000</a></li>
                     </ul>
                 </div>
+                <div className="content">
+                    <h3>Social Media</h3>
+                    <ul id="hours">
+                        <li><strong><a href="https://www.yelp.com/biz/xpert-sewer-and-drain-waukegan">Yelp</a></strong></li>
+                        <li><strong><a href="https://www.instagram.com/xpert_sewer_and_drain_llc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></strong></li>
+                    </ul>
+                </div>
             </div>
             <div >
+                <p id="license"><strong>License and Bonded #056-301340</strong></p>
                 <p id="copyright">
                     © 2023 Xpert Sewer & Drain
                 </p>

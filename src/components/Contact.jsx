@@ -28,7 +28,7 @@ const Contact = () => {
                 <form id="contact-form" ref={form} onSubmit={sendEmail}>
                     <input type="text" name="from_name" placeholder="Name" required={true}></input>
                     <input type="email" name="user_email" placeholder="Email" required={true}></input>
-                    <input type="email" name="phone_number" placeholder="Phone Number" required={true}></input>
+                    <input type="number" name="phone_number" placeholder="Phone Number" required={true}></input>
                     <input type="text" name="service" placeholder="Service" required={true} />
                     <textarea name="message" placeholder="Description" required={true} />
                     <input type="submit" value="Send"></input>

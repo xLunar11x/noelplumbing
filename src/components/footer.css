@@ -1,6 +1,7 @@
 
 #footer {
     background-image: linear-gradient(to left, #607395, #155e9d);
+    padding-bottom: 50px;
 }
 
 #columns {
@@ -35,6 +36,12 @@
     display: flex;
     justify-content: center;
     margin-bottom: 0;
+}
+
+#license {
+    display: flex;
+    justify-content: center;
+    
 }
 
 @media all and (max-width: 540px) {
